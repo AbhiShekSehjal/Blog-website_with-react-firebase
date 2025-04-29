@@ -4,12 +4,16 @@ import React from 'react'
 import SignUpUser from './pages/SignUpUser';
 import SignInUser from './pages/SignInUser';
 import Home from './components/Home';
+// import { useFirebase } from './context/firebase';
 
 
 // const db = getDatabase(app);
 
 
 function App() {
+
+  // console.log(useFirebase);
+  
 
   // const getData = () => {
   //   set(ref(db, "users/abhi"), {
